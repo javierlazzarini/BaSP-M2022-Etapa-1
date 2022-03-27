@@ -10,12 +10,14 @@
 
 <body>
     <header>
-        Trackgenix
+        <h1>
+            Trackgenix
+        </h1>
+        <p>
+            We are Trackgenix
+        </p>
     </header>
-    <header>
-        We are Trackgenix
-    </header>
-    <aside aria labelledby="sidebar">
+    <aside>
         <ul>
             <li>
                 <button>Home</button>
@@ -27,42 +29,42 @@
                 <button>Log In</button>
             </li>
         </ul>
+        <h3>Contact</h3>
+        <p>
+            Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim
+            lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum.
+            Sed nulla amet lorem feugiat tempus aliquam.
+        </p>
+        <h4>
+            <a href="#"> information@untitled.tld </a>
+        </h4>
+        <h4>
+            <a href="#">Tel.: (000) 000-0000</a>
+        </h4>
+        <h4>
+            <a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a>
+        </h4>
     </aside>
     <main>
         <section>
-            <h1>
-                Welcome to Trackgenix
-            </h1>
             <h2>
-                The new work system
+                Welcome to Trackgenix
             </h2>
+            <h3>
+                The new work system
+            </h3>
             <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
+                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum
+                congue.
                 Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris.
                 Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam.
                 Lorem ipsum dolor sit nullam.
             </p>
-            <img src="Assets/imagen de recursos humanos.png">
-
-            <h3>Contact</h3>
-            <p>
-                Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim
-                lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum.
-                Sed nulla amet lorem feugiat tempus aliquam.
-            </p>
-            <h4>
-                <a href="#"> information@untitled.tld </a>
-            </h4>
-            <h4>
-                <a href="#">Tel.: (000) 000-0000</a>
-            </h4>
-            <h4>
-                <a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a>
-            </h4>
+            <img src="Assets/imagen-de-recursos-humanos.png" alt="image of multiple persons">
         </section>
         <section>
             <h2>Features</h2>
-            <img src="Assets/imagen reloj.webp">
+            <img src="Assets/imagen-reloj.webp" alt="image of one clock">
             <h2>
                 RECORD OF HOURS
             </h2>
@@ -70,7 +72,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </P>
-            <img src="Assets/gestion de recursos imagen.jpg">
+            <img src="Assets/gestion-de-recursos-imagen.jpg" alt="image of human resources gestion">
             <h2>
                 RESOURCE MANAGEMENT
             </h2>
@@ -78,7 +80,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </P>
-            <img src="Assets/imagen reporte.png">
+            <img src="Assets/imagen-reporte.png" alt="image of report">
             <h2>
                 REPORTS
             </h2>
@@ -86,7 +88,7 @@
                 Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </P>
-            <img src="Assets/imagen multiples roles.webp">
+            <img src="Assets/imagen-multiples-roles.webp" alt="image of multiple roles">
             <h2>
                 MULTIPLE ROLES
             </h2>
@@ -125,47 +127,33 @@
                 Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
             </p>
         </section>
-        <section>
-            <h2>
-                Information
-            </h2>
-            <h3>
-                NAME & LAST NAME
-            </h3>
             <form>
-                <input type="text">
+                <div>
+                    <fieldset>
+                        <legend>Information</legend>
+                        <label for="full-name">NAME & LAST NAME</label>
+                        <input type="text" id="full-name" name="full-name">
+                        <label for="email">E-MAIL</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <input type="radio" name="contact" id="human-resources" value="human-resources">
+                        <label for="human-resources">Human Resources</label>
+                        <input type="radio" name="contact" id="sistems" value="sistems">
+                        <label for="sistems">Sistems</label>
+                        <input type="radio" name="contact" id="comercialization" value="comercialization">
+                        <label for="comercialization">Comercialization</label>
+                        <label for="message-clients">Message</label>
+                        <textarea id="message-clients" name="message-clients" rows="4" cols="50"
+                            placeholder="Write your message">
+                        </textarea>
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                </div>
             </form>
-            <h3>E-MAIL</h3>
-            <form>
-                <input type="text">
-                <h3>
-                    CONTACT
-                </h3>
-                <form>
-                    <input type="checkbox">
-                </form>
-                <h3>
-                    Human resources
-                </h3>
-                <Form>
-                    <input type="checkbox">
-                </Form>
-                <h3>
-                    Sistems
-                </h3>
-                <form>
-                    <input type="checkbox">
-                </form>
-                <h3>
-                    Comercialization
-                </h3>
-                <h3>
-                    MESSAGE
-                </h3>
-                <form>
-                    <input type="text">
-                </form>
-        </section>
         <section>
             <h2>
                 OUR HISTORY
