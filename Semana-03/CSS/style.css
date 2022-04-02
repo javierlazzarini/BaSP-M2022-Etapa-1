@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    font-family: "roboto", sans-serif;
+    color: #373867;
+}
+header {
+    width: 100%;
+    background-color: #AACE9B;
+    height: 128px;
+}
+
+header h1 {
+    font-family:"Roboto", sans-serif;
+    font-style: bold;
+    font-size: 86px;
+    line-height: 101px;
+    line-height: 100%;
+    text-align: right;
+    vertical-align: top;
+    color: #373867;
+    font-weight: 700;
+}
+header p {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 27px;
+  line-height: 32px;
+  line-height: 100%;
+  text-align: right;
+  vertical-align: baseline;
+  color: #69a362;
+}
+aside {
+    width: 253px;
+    height: 6022px;
+    float: left;
+    background-color: #373867;
+}
+.presentation-tittle {
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+    font-size: 72px;
+    color: #373867;
+    width: 100%;
+    margin: 10px;
+    margin-left: 263px;
+    padding-left: 50px;
+}
+.presentation-subtittle {
+    font-family: "roboto", sans-serif;
+    font-size: 35px;
+    font-style: bold;
+    width: 100%;
+    margin: 10px;
+    margin-left: 263px;
+    padding-left: 50px;
+}
+.presentation-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    color: #373867;
+    width: 50%;
+    text-align: left;
+    margin: 10px;
+    margin-left: 263px;
+    padding-left: 50px;
+    position: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.presentation-img {
+    width: 50%;
+    float: right;
+    display: inline;
+}
+.features h3 {
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 35px;
+    line-height: 100%;
+}
+.features h2 {
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+    font-size: 48px;
+    line-height: 56px;
+    line-height: 100%;
+}
+.features p {
+    font-family: "Roboto", sans-serif;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 20px;
+    line-height: 122%;
+}
