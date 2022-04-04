@@ -91,7 +91,7 @@ nav ul li a {
 .contact-side h2 {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .contact-side a {
     margin: 20px 0;
@@ -99,8 +99,16 @@ nav ul li a {
     color: #fff;
     font-weight: 700;
     font-size: 12px;
+    margin-left: 20px;
+    text-align: center;
 }
-
+.contact-side ul {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+   text-align: center;
+}
 .presentation-tittle {
     font-family: "roboto", sans-serif;
     font-style: bold;
@@ -249,7 +257,10 @@ nav ul li a {
     height: 104px;
     margin-left: 83px;
 }
-form legend{
+.imputs-div {
+    margin: 30px;
+}
+.imputs-div legend{
     width: 700;
     font-family: "roboto", sans-serif;
     font-style: bold;
@@ -257,13 +268,64 @@ form legend{
     font-weight: 700;
     line-height: 69.5px;
     color: #373867;
+    margin-bottom: 30px;
 }
-form label {
+.imputs-div input {
+    width: 1011px;
+    height: 59px;
+    border-radius: 20px;
+    background-color: #37386766;
+    opacity: 40%;
+    margin-top: 10px;
+}
+.contact-div {
+    display: inline-block;
+    width: 1066px;
+    text-align: center;
+}
+.contact-div input {
+    margin: 5px;
+}
+.contact-div label{
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #373867;
+    margin: 0 50px 0 3px;
+}
+.contact-field legend{
     width: 700;
     font-family: "roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #373867;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.radio-imputs{
+    width: 32px;
+    height: 32px;
+    background-color: #37386766;
+    cursor: pointer;
+}
+.message-div{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.message-div textarea {
+    width: 1011px;
+    height: 315px;
+    background-color: #37386766;
+    opacity: 40%;
+    border-radius: 20px;
+}
+button {
+    background-color: #AACE9B;
+    border-radius: 3.75px;
+    width: 136.96px;
+    height: 34.99px;
+    margin-left: 40px;
 }
 
 .history h2 {
@@ -290,4 +352,14 @@ form label {
     font-size: 18px;
     color: #373867;
     text-align: center;
+}
+.bottom-list{
+    display: inline-table;
+    text-align: center;
+}
+.bottom-list h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #69a362;
 }

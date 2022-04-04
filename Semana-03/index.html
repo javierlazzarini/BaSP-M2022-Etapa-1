@@ -33,8 +33,11 @@
             <div class="contact-side">
                 <h2>Contact</h2>
                 <ul>
+                    <li><img src="assets/email.png" alt=""></li>
                     <li><a href="#"> information@untitled.tld </a></li>
+                    <li><img src="assets/phone.png" alt=""></li>
                     <li><a href="#">Tel.: (000) 000-0000</a></li>
+                    <li><img src="assets/house.png" alt=""></li>
                     <li><a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a></li>
                 </ul>
             </div>
@@ -147,26 +150,42 @@
             </div>
         </section>
         <form>
-            <fieldset>
+            <fieldset class="imputs-div">
                 <legend>Information</legend>
-                <label for="full-name">NAME & LAST NAME</label>
+                <div>
+                    <label for="full-name">NAME & LAST NAME</label>
+                </div>
                 <input type="text" id="full-name" name="full-name">
-                <label for="email">E-MAIL</label>
+                <div>
+                    <label for="email">E-MAIL</label>
+                </div>
                 <input type="email" id="email" name="email" placeholder="your@email.com">
             </fieldset>
-            <fieldset>
-                <legend>Contact</legend>
-                <input type="radio" name="contact" id="human-resources" value="human-resources">
-                <label for="human-resources">Human Resources</label>
-                <input type="radio" name="contact" id="sistems" value="sistems">
-                <label for="sistems">Sistems</label>
-                <input type="radio" name="contact" id="comercialization" value="comercialization">
-                <label for="comercialization">Comercialization</label>
-                <label for="message-clients">Message</label>
-                <textarea id="message-clients" name="message-clients" rows="4" cols="50">
+            <fieldset class="contact-field">
+                <legend>CONTACT</legend>
+                <div class="contact-div">
+                    <input type="checkbox" name="contact" id="human-resources" value="human-resources"
+                        class="radio-imputs">
+                    <label for="human-resources">Human Resources</label>
+                    <input type="checkbox" name="contact" id="sistems" value="sistems" class="radio-imputs">
+                    <label for="sistems">Systems</label>
+                    <input type="checkbox" name="contact" id="commercialization" value="comercialization"
+                        class="radio-imputs">
+                    <label for="comercialization">Commercialization</label>
+                </div>
+                <div class="message-div">
+                    <div>
+                        <label for="message-clients">Message</label>
+                    </div>
+                    <div>
+                        <textarea id="message-clients" name="message-clients" rows="4" cols="50">
                         </textarea>
+                    </div> 
+                </div>
             </fieldset>
-            <input type="submit" value="Submit">
+            <div class="submit-button">
+                <button type="button">Submit</button>
+            </div>
         </form>
         <section class="history">
             <h2>
@@ -208,7 +227,7 @@
             </p>
         </section>
         <section>
-            <div>
+            <div class="bottom-list">
                 <h2>
                     PRODUCTS
                 </h2>
@@ -219,20 +238,18 @@
                     <li><a href="#">Extras</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="bottom-list">
                 <h2>
                     COMPANY
                 </h2>
                 <ul>
                     <li><a href="#">About us</a></li>
-                    </Li>
                     <li><a href="#">Clients</a></li>
-                    </li>
                     <li><a href="#">Resources</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="bottom-list">
                 <h2>
                     SUPPORT
                 </h2>
