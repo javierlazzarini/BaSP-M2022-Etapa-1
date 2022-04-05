@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
+/* #Elements selectors*/
 body {
     box-sizing: border-box;
     position: relative;
@@ -26,9 +26,6 @@ header {
 label {
     font-weight: bold;
     text-transform: uppercase;
-}
-p {
-    text-align: center;
 }
 header h1 {
     font-family:"Roboto", sans-serif;
@@ -106,6 +103,23 @@ nav ul li a {
     font-size: 12px;
    text-align: center;
 }
+footer {
+    position: relative;
+    top: 800px;
+    right: 0;
+    left: 19.1%;
+    width: 85%;
+    height: 150px;
+    background-color: #AACE9B;
+    text-align: center;
+}
+
+footer p {
+    margin: 30px 0 0 5%;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* #Welcome section*/
 .presentation-tittle {
     font-family: "roboto", sans-serif;
     font-size: 72px;
@@ -139,6 +153,7 @@ nav ul li a {
     float: right;
     display: inline;
 }
+/* #Features section*/
 .features {
     position: relative;
     margin-top: 178px;
@@ -251,6 +266,7 @@ nav ul li a {
     height: 104px;
     margin-left: 83px;
 }
+/* #Contact section*/
 .imputs-div {
     margin: 30px;
 }
@@ -320,7 +336,7 @@ button {
     height: 34.99px;
     margin-left: 40px;
 }
-
+/* #History section*/
 .history h2 {
     font-weight: 700;
     font-size: 64px;
@@ -345,10 +361,10 @@ button {
     color: #373867;
     text-align: center;
 }
-
+/* #Items list section*/
 .items-list{
     position: relative;
-    top: 600px;
+    top: 300px;
     padding-left: 5%;
     text-align: center;
 }
@@ -374,21 +390,4 @@ button {
     color: #373867;
     list-style: circle left;
     text-decoration: none;
-}
-
-footer {
-    position: relative;
-    top: 1000px;
-    right: 0;
-    left: 19.1%;
-    width: 85%;
-    height: 150px;
-    background-color: #AACE9B;
-}
-
-footer p {
-    text-align: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 18px;
 }
