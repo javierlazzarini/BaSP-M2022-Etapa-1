@@ -53,6 +53,7 @@ aside {
     height: 6000px;
     background-color: #373867;
     border-left: 49px solid #AACE9B;
+    z-index: 80;
 }
 .line {
     position: relative;
