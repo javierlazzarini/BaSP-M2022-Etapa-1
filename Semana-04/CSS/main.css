@@ -1,0 +1,182 @@
+main{
+    font-family:"roboto", sans-serif ;
+    color: #373867;
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  
+}
+#presentation-tittle {
+    font-size: 30px;
+    font-weight: 700;
+}
+#presentation-subtittle {
+    font-size: 13px;
+    font-weight: 700;
+}
+.presentation img{
+    width: 45%;
+    height: auto;
+}
+.presentation p{
+    font-size: 9px;
+    width: 70%;
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#features img {
+    width: 15%;
+    opacity: 50%;
+}
+#features h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+#features h3 {
+    font-family: "roboto" , sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+#features p {
+    font-family: "roboto", sans-serif;
+    font-weight: 400;
+    font-size: 5px;
+    width: 50%;
+}
+.features-block {
+    display: flex;
+    flex-direction: row;
+
+}
+.features-block:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.line-separation{
+    width: 50%;
+    border-top:1px solid #AACE9B;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.booster-containers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    margin-bottom: 37px;
+    border: 2px solid #AACE9B;
+    width: 235px;
+    height: 176px;
+    text-align: center;
+    justify-content: space-around;
+}
+.container h3{
+    font-weight: 700;
+    font-size: 18px;
+    color: #AACE9B;
+}
+.container p {
+    font-size: 10px;
+    font-weight: 700;
+    font-style: bold;
+}
+form {
+    padding: 12.5%;
+}
+form input,textarea {
+    background-color: #DADADA;
+    border-radius: 2px;
+    border-color: unset;
+    border-style: none;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+#imputs-div h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+#imputs-div label {
+    font-size: 9px;
+    font-weight: 700;
+}
+#contact-field h2 {
+    font-size: 9px;
+    font-weight: 700;
+}
+#contact-field label {
+    font-size: 9px;
+    font-weight: 700;
+}
+#submit-button {
+    font-family: "roboto", sans-serif;
+    background-color: #DADADA;
+    border-radius: 2px;
+}
+#history {
+    display: flex;
+    flex-direction: column;
+}
+#history h2 {
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+}
+.text-bold{
+    font-weight: 600 ;
+    font-size: 10px;
+    font-style: bold;
+    margin: 5%;
+}
+.text-history {
+    font-size: 8px;
+    font-weight: 400;
+    margin: 5%;
+}
+#list-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+}
+.item-list h2{
+    font-weight: 700;
+    font-size: 24px;
+    color: #AACE9B;
+}
+.item-list a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #373867;
+    text-decoration: none;
+}
+.item-list ul {
+    list-style-type: unset;
+}
