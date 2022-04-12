@@ -1,17 +1,16 @@
 footer {
-    height: 10%;
     width: 100%;
     background-color: #aace9b;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 footer p {
     font-family: "roboto", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 9px;
     color: #373867;
     margin-top: 4px;
+    
 }
