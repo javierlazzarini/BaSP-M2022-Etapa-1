@@ -7,9 +7,8 @@ main {
 .presentation {
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
-
+    align-content: center;
 }
 
 #presentation-tittle {

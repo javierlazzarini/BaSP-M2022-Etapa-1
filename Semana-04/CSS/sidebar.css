@@ -1,7 +1,7 @@
 aside {
     /* display: none;
     position: fixed; */
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 30%;
     align-items: center;

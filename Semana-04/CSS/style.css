@@ -6,7 +6,14 @@ body {
 #side-main {
     display: flex;
 }
-
+@media screen and (min-width: 1024px){
+    aside {
+        display: flex;
+    }
+    header i {
+        visibility: hidden;
+    }
+}
 
 /* @media screen and (min-width: 1024px) {
     aside {
