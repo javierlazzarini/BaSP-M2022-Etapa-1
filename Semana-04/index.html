@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/sidebar.css">
     <link rel="stylesheet" href="CSS/footer.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/a45c2b6d49.js" crossorigin="anonymous"></script>
     <title>Trackgenix S.A.</title>
 </head>
 
@@ -22,35 +23,38 @@
         <p>
             We are Trackgenix
         </p>
+        <i class="fa-solid fa-bars"></i>
     </header>
-    <aside>
-        <div class="line-aside"></div>
-        <div class="nav-bar">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sing Up</a></li>
-                    <li><a href="#">Log In</a></li>
-                </ul>
-            </nav>
+    <aside id="sidebar">
+        <div class="line-sidebar"></div>
+        <div class="nav">
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Sign Up</a> </li>
+                <li> <a href="#">Log In</a> </li>
+            </ul>
         </div>
-        <div class="line-aside"></div>
-        <div id="contact-side">
+        <div class="line-sidebar"></div>
+        <div class="contact">
             <h2>Contact</h2>
             <p>
-                Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius.
-                Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus,
+                ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum.
+                Sed nulla amet lorem feugiat tempus aliquam.
             </p>
+        </div>
+        <div class="information">
             <ul>
-                <li><img src="assets/email.png" alt="email icon"></li>
-                <li><a href="#"> information@untitled.tld </a></li>
-                <li><img src="assets/phone.png" alt="phone icon"></li>
-                <li><a href="#">Tel.: (000) 000-0000</a></li>
-                <li><img src="assets/house.png" alt="house icon"></li>
-                <li><a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a></li>
+                <i class="fa-solid fa-envelope" alt="Email icon"></i>
+                <li> <a href="#">information@untitled.tld</a> </li>
+                <i class="fa-solid fa-phone-flip" alt="Phone icon"></i>
+                <li> <a href="#">Tel.: (000) 000-0000</a> </li>
+                <i class="fa-solid fa-house" alt="House icon"></i>
+                <li> <a href="#">1234 Somewhere Road #8254 Nashville, TN 00000-0000</a> </li>
             </ul>
         </div>
     </aside>
+
     <main>
         <section class="presentation">
             <h2 id="presentation-tittle">
@@ -71,44 +75,39 @@
         <div class="line-separation"></div>
         <section id="features">
             <h2>Features</h2>
+            <h3>RECORD OF HOURS</h3>
             <div class="features-block">
                 <img src="Assets/imagen-reloj.webp" alt="image of one clock" id="clock">
-                <div class="feature-content">
-                    <h3>RECORD OF HOURS</h3>
-                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis
-                        anteinterdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                </div>
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis
+                    anteinterdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
             </div>
-            <div class="features-block">
+            <h3>
+                RESOURCE MANAGEMENT
+            </h3>
+            <div class="features-block-reverse">
                 <img src="Assets/gestion-de-recursos-imagen.jpg" alt="image of human resources gestion" id="gestion">
-                <div class="feature-content">
-                    <h3>
-                        RESOURCE MANAGEMENT
-                    </h3>
-                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorpProin aliquam facilisis ante
-                        interdum.Sednulla amet lorem feugiat tempus aliquam.</p>
-                </div>
+
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorpProin aliquam facilisis ante
+                    interdum.Sednulla amet lorem feugiat tempus aliquam.</p>
             </div>
-            </div>
-            <div class="features-block">
+            <h3>
+                REPORTS
+            </h3>
+            <div class="features-block-reverse">
                 <img src="Assets/imagen-reporte.png" alt="image of report" id="report">
-                <div class="feature-content">
-                    <h3>
-                        REPORTS
-                    </h3>
-                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis
-                        anteinterdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                </div>
+
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis
+                    anteinterdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
             </div>
+            <h3>
+                MULTIPLE ROLES
+            </h3>
             <div class="features-block">
                 <img src="Assets/imagen-multiples-roles.webp" alt="image of multiple roles" id="roles">
-                <div class="feature-content">
-                    <h3>
-                        MULTIPLE ROLES
-                    </h3>
-                    <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis ante
-                        interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-                </div>
+
+                <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore.Proin aliquam facilisis
+                    ante
+                    interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
             </div>
         </section>
         <div class="line-separation"></div>
@@ -152,7 +151,7 @@
         </section>
         <div class="line-separation"></div>
         <form>
-            <fieldset  id="imputs-div">
+            <fieldset id="imputs-div">
                 <h2>Information</h2>
                 <label for="full-name">NAME & LAST NAME</label>
                 <input type="text" id="full-name" name="full-name">
@@ -162,7 +161,8 @@
             <fieldset id="contact-field">
                 <h2>CONTACT</h2>
                 <div class="contact-div">
-                    <input type="checkbox" name="contact" id="human-resources" value="human-resources"class="radio-imputs">
+                    <input type="checkbox" name="contact" id="human-resources" value="human-resources"
+                        class="radio-imputs">
                     <label for="human-resources">Human Resources</label>
                     <input type="checkbox" name="contact" id="sistems" value="sistems" class="radio-imputs">
                     <label for="sistems">Systems</label>
@@ -199,33 +199,39 @@
             <p class="text-history">
                 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
                 Vestibulum ante ipsum
-                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+                eu
                 faucibus. Integer
                 ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
                 sagittis eget.
-                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+                iaculis
                 volutpat ac
                 adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
             </p>
             <p class="text-history">
                 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
                 Vestibulum ante ipsum
-                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+                eu
                 faucibus. Integer
                 ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
                 sagittis eget.
-                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+                iaculis
                 volutpat ac
                 adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
             </p>
             <p class="text-history">
                 Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod.
                 Vestibulum ante ipsum
-                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu
+                primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan
+                eu
                 faucibus. Integer
                 ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis
                 sagittis eget.
-                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+                tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
+                iaculis
                 volutpat ac
                 adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
             </p>
@@ -267,6 +273,7 @@
             </div>
         </section>
     </main>
+    </div>
     <footer>
         <p>
             Rosario, Santa Fe - Argentina
