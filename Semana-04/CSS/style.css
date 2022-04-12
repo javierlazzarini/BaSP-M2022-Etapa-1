@@ -2,7 +2,13 @@ body {
     font-family: "roboto", sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@media screen and (min-width: 1024px) {
+
+#side-main {
+    display: flex;
+}
+
+
+/* @media screen and (min-width: 1024px) {
     aside {
         display: flex;
     }
@@ -17,5 +23,4 @@ body {
     }
 }
 @media screen and (min-width: 768px) {
-
-}
+} */

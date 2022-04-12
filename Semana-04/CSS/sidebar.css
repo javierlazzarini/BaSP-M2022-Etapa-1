@@ -1,17 +1,14 @@
 aside {
-    display: none;
-    position: fixed;
+    /* display: none;
+    position: fixed; */
+    display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 100%;
+    width: 30%;
+    align-items: center;
     align-content: center;
-    justify-content: space-evenly;
+    text-align: center;
     background-color: #373867;
     border-left: 20px solid #aace9b;
-}
-
-.side-line {
-    border-bottom: 2px solid #aace9b;
 }
 
 #side-butons {
@@ -27,7 +24,7 @@ aside {
     margin: 10%;
     text-align: center;
     background-color: #aace9b;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 10px;
     border-radius: 5%;
 }
@@ -42,7 +39,8 @@ aside h2 {
     font-weight: 700;
     font-size: 15px;
     line-height: 23px;
-    text-align: center
+    text-align: center;
+    margin-top: 20%;
 }
 
 aside p {
