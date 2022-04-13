@@ -31,6 +31,16 @@ body {
         align-items: flex-start;
         margin-left: 10%;
     }
+    #presentation-tittle {
+        font-size: 60px;
+    }
+    #presentation-subtittle {
+        font-size: 26px;
+    }
+    #presentation-block p {
+        font-size: 18px;
+    }
+    
     #presentation-block {
         flex-direction: row-reverse;
     }
@@ -42,4 +52,19 @@ body {
         flex-direction: row;
         justify-content: space-between;
     }
+    #history h2 {
+        font-size: 40px;
+    }
+    #history .text-bold {
+        font-size: 20px;
+    }
+    #history .text-history {
+        font-size: 16px;
+    }
+    footer p {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+
 }
