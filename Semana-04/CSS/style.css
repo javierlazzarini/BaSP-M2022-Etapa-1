@@ -13,21 +13,26 @@ body {
     header i {
         visibility: hidden;
     }
-}
-
-/* @media screen and (min-width: 1024px) {
-    aside {
-        display: flex;
-    }
-    main {
-        margin-left: 25%;
-    }
-    header i {
-        visibility: hidden;
-    }
-    footer {
-        margin-left: 20%;
+    header h1 {
+        font-size: 60px;
+      }
+    header h2 {
+        font-size: 45px;
     }
 }
 @media screen and (min-width: 768px) {
-} */
+    header h1 {
+        font-size: 50px;
+      }
+    header h2 {
+        font-size: 25px;
+    }
+    .presentation {
+        align-items: flex-start;
+        margin-left: 10%;
+    
+    }
+    #presentation-block {
+        flex-direction: row-reverse;
+    }
+}
