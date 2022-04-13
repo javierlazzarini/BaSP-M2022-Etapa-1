@@ -30,9 +30,16 @@ body {
     .presentation {
         align-items: flex-start;
         margin-left: 10%;
-    
     }
     #presentation-block {
         flex-direction: row-reverse;
+    }
+    .features-sep {
+        display: flex;
+    }
+    #list-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

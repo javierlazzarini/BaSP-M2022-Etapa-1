@@ -35,60 +35,20 @@ main {
     font-size: 9px;
     width: 70%;
 }
-
 #features {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
-#features img {
-    opacity: 50%;
+.features-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-#features h2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    color: #373867;
-}
-
-#features .features-block {
+.box-features {
     display: flex;
     align-items: center;
 }
-
-#features .features-block-reverse {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
-#features h3 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    margin: 40px;
-    font-weight: 700;
-    color: #373867;
-}
-
-.features-block p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    margin: 20px;
-    font-weight: 400;
-    font-size: 15px;
-    color: #373867;
-}
-
-.features-block-reverse p {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    margin: 20px;
-    font-weight: 400;
-    font-size: 15px;
-    color: #373867;
-}
-
 #clock {
     width: 150px;
     height: 150px;
@@ -109,6 +69,31 @@ main {
 #roles {
     width: 150px;
     height: 100px;
+}
+#features img {
+    opacity: 40%;
+}
+#features h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #373867;
+}
+#features h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 40px;
+    font-weight: 700;
+    color: #373867;
+}
+.features-block p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #373867;
 }
 
 .line-separation {
@@ -225,10 +210,10 @@ fieldset {
     margin: 5%;
 }
 
-.list-section {
+#list-section {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     margin: 10%;
 }
 .item-list h2 {
