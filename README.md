@@ -26,6 +26,8 @@ In this repository you will find:
 "An CSS file, called "style.css", with the syles of the landing"
 # Week 4: 
 "An CSS files for make the landing responsive to diferent devices"
+# Week 5:
+"An worksheets posed by the weekly problem to account for knowledge in javascript language"
 
 ## Contact
 If you wanna know more about this project, you can get in contact via e-mail to: javier.lazzarini@gmail.com
