@@ -110,8 +110,8 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 10%;
-    max-width: 600px;
+    margin: 20%;
+    max-width: 700px;
 }
 
 .container {
@@ -120,8 +120,8 @@ main {
     align-items: stretch;
     margin-bottom: 37px;
     border: 2px solid #AACE9B;
-    width: 235px;
-    height: 176px;
+    width: 250px;
+    height: 190px;
     text-align: center;
     justify-content: space-around;
 }
