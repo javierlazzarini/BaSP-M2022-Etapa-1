@@ -58,7 +58,7 @@ var resultado = sumaC(20.84,25);
 console.log(resultado);
 
 //e. Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
-
+console.log ('--Exercise 6.e:')
 function validacionSuma(a,b) {
     if (typeof a == "number" && typeof b == "number" ) {
         if (validateInteger(a) == true && validateInteger(b) == true) {
@@ -83,5 +83,5 @@ function suma(a,b) {
         return a + b;
     } else return sum;
 }
-var resultado = suma(504,2500);
+var resultado = suma(504,250);
 console.log(resultado);
