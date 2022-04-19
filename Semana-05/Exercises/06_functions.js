@@ -15,7 +15,7 @@ function sumaB(a = 0, b = 0) {
     if (typeof a == 'number' && typeof b == 'number') {
         return a + b;
     } else {
-        alert('Error: alguno de los parametros no es un numero');
+        alert("Error: one of the parameters is not a number");
         return NaN;
     }
 }
@@ -42,15 +42,15 @@ function sumaC(a = 0,b = 0) {
             return a + b;
         } else {
             if (validateInteger(a) == false) {
-                alert("ERROR el parametro " + a + " no es entero");
+                alert("ERROR the parameter " + a + " is not integer");
                 return Math.round(a)
             } else {
-                alert("ERROR el parametro " + b + " no es entero");
+                alert("ERROR the parameter " + b + " is not integer");
                 return Math.round(b)
             }
         } 
     } else {
-        alert("ERROR uno de los parametros no es un numero");
+        alert("ERROR one of the parameters is not a number");
         return NaN;
     }
 }
@@ -58,22 +58,22 @@ var resultado = sumaC(20.84,25);
 console.log(resultado);
 
 //e. Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de la función suma probando que todo siga funcionando igual.
-console.log ('--Exercise 6.e:')
+console.log ('--Exercise 6.e:');
 function validacionSuma(a,b) {
     if (typeof a == "number" && typeof b == "number" ) {
         if (validateInteger(a) == true && validateInteger(b) == true) {
             return true;
         } else {
             if (validateInteger(a) == false) {
-                alert("ERROR el parametro " + a + " no es entero");
+                alert("ERROR the parameter " + a + " is not integer");
                 return Math.round(a);
             } else {
-                alert("ERROR el parametro " + b + " no es entero");
+                alert("ERROR the parameter " + b + " is not integer");
                 return Math.round(b);
             }
         } 
     } else {
-        alert("ERROR uno de los parametros no es un numero");
+        alert("ERROR one of the parameters is not a number");
         return NaN;
     }
 }
