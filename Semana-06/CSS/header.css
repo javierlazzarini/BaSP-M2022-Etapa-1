@@ -1,0 +1,29 @@
+header {
+    background: #AACE9B;
+    color:#373867;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+header h1 {
+    color: #373867;
+    font-size: 25px;
+}
+
+header h2 {
+    color: #69A362;
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ .header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header-container i{
+    align-self: flex-start;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+}
+  
