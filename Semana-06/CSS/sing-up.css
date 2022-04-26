@@ -47,6 +47,17 @@ form input {
     background-color: #AACE9B;
     margin-bottom: 5%;
 }
+.correct {
+    display: flex;
+    color: green;
+}
+.error {
+    display: flex;
+    color: red;
+}
+.hide {
+    display: none;
+}
 @media screen and (min-width: 1024px){
     
     header h1 {

@@ -21,56 +21,69 @@
         </div>
     </header>
     <main>
-        <h2>SING UP</h2>
-        <form action="/action_page.php" method="get">
+        <h2>SIGN UP</h2>
+        <form>
             <div class="middlecontainer">
                 <div class="container">
                     <label for="first-name">First Name:</label>
                     <input id="first-name">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="last-name">Last name:</label>
                     <input id="last-name">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="id">ID:</label>
                     <input id="DNI">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="dob">Date of Birth:</label>
-                    <input id="dob">
+                    <input id="dob" type="date">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="phone-number">Phone Number:</label>
                     <input id="phone-number">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="adress">Adress:</label>
                     <input id="adress">
+                    <p class="msg-container"></p>
                 </div>
             </div>
             <div class="middlecontainer">
                 <div class="container">
                     <label for="city">City:</label>
-                    <input type="text" name="city">
+                    <input id="city">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="post-code">Post Code:</label>
-                    <input type="text" name="post-code">
+                    <input id="post-code">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="email">Email:</label>
-                    <input type="email" name="email">
+                    <input id="email" type="email">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
                     <label for="password">Password:</label>
-                    <input type="text" name="password">
+                    <input type="password" id="password">
+                    <p class="msg-container"></p>
                 </div>
                 <div class="container">
-                    <label for="confirm password">Confirm password:</label>
-                    <input type="text" name="confirm password">
+                    <label for="confirm-password">Confirm password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                    <p class="msg-container"></p>
                 </div>
-                <input id="create" type="submit" value="Create account">
+                <div>
+                    <input id="create" type="submit" value="Create account">
+                </div>
             </div>
         </form>
 
@@ -83,6 +96,7 @@
             Copyright © 2022 Trackgenix SA. All rights reserved.
         </p>
     </footer>
+    <script src="../javascript/sing-up.js"></script>
 </body>
 
 </html>
