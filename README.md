@@ -6,6 +6,7 @@ In the first week of work, we made a design in Figma of what the different scree
 In this second week, the work was based on converting the previously designed landing page into an HTML document.
 After that, in the third week, the index file has been styling using a CSS page to imitate the landing style created in FIGMA.
 For the four week of work, i make my landing page to been responsive to diferent resolutions. This can bee open whit a mobile device, tablet or a desktop, and the styles goin to change to show the content adapted.
+In the six week, i make the validations to make work the forms of the Trackgenix app web. This ones where validated under the parameters of the company.
 The user can find different settings and functionalities like:
 - Sign up and Log in for diferent users
 - Management of different roles
@@ -28,6 +29,8 @@ In this repository you will find:
 "An CSS files for make the landing responsive to diferent devices"
 # Week 5:
 "An worksheets posed by the weekly problem to account for knowledge in javascript language"
-
+# Week 6:
+"An HTML, CSS and JavaScript files for the login page of the app"
+"An HTML, CSS and JavaScript files for the sign up employees page of the app"
 ## Contact
 If you wanna know more about this project, you can get in contact via e-mail to: javier.lazzarini@gmail.com
