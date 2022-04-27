@@ -30,6 +30,7 @@ In this repository you will find:
 # Week 5:
 "An worksheets posed by the weekly problem to account for knowledge in javascript language"
 # Week 6:
+" https://javierlazzarini.github.io/BaSP-M2022-Etapa-1/Semana-06/Views/ "
 "An HTML, CSS and JavaScript files for the login page of the app"
 "An HTML, CSS and JavaScript files for the sign up employees page of the app"
 ## Contact
