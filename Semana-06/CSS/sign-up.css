@@ -2,6 +2,15 @@ body{
     font-family: "roboto", sans-serif;
     color: #373867;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header i {
+    font-size: 50px;
+    color: #373867;
+    padding: 50%;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -46,10 +55,6 @@ form input {
     width: 100%;
     background-color: #AACE9B;
     margin-bottom: 5%;
-}
-.correct {
-    display: flex;
-    color: green;
 }
 .error {
     display: flex;

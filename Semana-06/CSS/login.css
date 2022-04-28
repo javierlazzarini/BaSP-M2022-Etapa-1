@@ -1,6 +1,16 @@
 body{
     color: #373867;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header i {
+    font-size: 50px;
+    color: #373867;
+    padding: 50%;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -55,7 +65,15 @@ form div {
     font-weight: 600;
 }
 #goToSignUp a {
+    color: #373867;
     font-weight: 800;
+}
+.error {
+    display: flex;
+    color: red;
+}
+.hide {
+    display: none;
 }
 @media screen and (min-width: 1024px){
     

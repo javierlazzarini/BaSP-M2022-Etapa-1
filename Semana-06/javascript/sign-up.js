@@ -349,13 +349,37 @@ window.onload = function () {
         msgContainer[10].classList.add('hide');
         inputConfirm.style.border = "3px solid grey";
     }
+
+    function createSend() {
+        if (!validateName(inputFname.value)) {
+            alert('Error: Name Incorrect')
+        } else if (!validateName(inputLname.value)) {
+            alert('Error: Last name Incorrect')
+        } else if (!validateId(inputId.value)) {
+            alert('Error: ID Incorrect')
+        } else if (!validateDob(inputDob.value)) {
+            alert('Error: Date of Birth Incorrect')
+        } else if (!validatePhone(inputPhone.value)) {
+            alert('Error: Phone Number Incorrect')
+        } else if (!validateAdress(inputAdress.value)) {
+            alert('Error: Address Incorrect')
+        } else if (!validateName(inputCity.value)) {
+            alert('Error: City Incorrect')
+        } else if (!validatePost(inputPost.value)) {
+            alert('Error: Post Code Incorrect')
+        } else if (!validateEmail(inputEmail.value)) {
+            alert('Error: Email Incorrect')
+        } else if (!validatePassword(inputPass.value)) {
+            alert('Error: Password Incorrect')
+        } else if (validateName(inputFname.value) && validateName(inputLname.value) && validateId(inputId.value) &&
+            validateDob(inputDob.value) && validatePhone(inputPhone.value) && validateAdress(inputAdress.value) &&
+            validateName(inputCity.value) && validatePost(inputPost.value) && validateEmail(inputEmail) &&
+            validatePassword(inputPass.value) && reValidatePassword(inputConfirm.value)) {
+            alert('CONGRATULATIONS\n YOUR ACCOUNT HAS BEEN SUCCESSFULLY CREATED' + '\nfName: ' + inputFname.value + '\nLname: ' +
+                inputLname.value + '\nID: ' + inputId.value + '\nDate of Birth: ' + inputDob.value + '\nPhone Number: ' +
+                inputPhone.value + '\nAddress: ' + inputAdress.value + '\nCity: ' + inputCity.value + '\nPost Code: ' +
+                inputPost.value + '\nEmail: ' + inputEmail.value + '\nPassword: ' + inputPass.value)
+
+        }
+    }
 }
-
-
-
-
-
-
-
-
-    
