@@ -1,0 +1,92 @@
+body{
+    color: #373867;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header i {
+    font-size: 50px;
+    color: #373867;
+    padding: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    margin: 10% 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #AACE9B;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.47);
+    width: 60%;
+    max-width: 500px;
+    justify-content: space-between;
+}
+form h2{
+    font-family:"roboto", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #373867;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+form label {
+    font-weight: 600;
+    font-size: 15px;
+}
+form input {
+    margin-top: 5%;
+    width: 80%;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 10%;
+}
+#b-signin input {
+    background-color: #AACE9B;
+    margin-bottom: 5%;
+}
+#goToSignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    font-weight: 600;
+}
+#goToSignUp a {
+    color: #373867;
+    font-weight: 800;
+}
+.error {
+    display: flex;
+    color: red;
+}
+.hide {
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    
+    header h1 {
+        font-size: 60px;
+      }
+    header h2 {
+        font-size: 45px;
+    }
+}
+@media screen and (min-width: 768px) {
+    footer p {
+        font-size: 18px;
+        margin-top: 8px;
+    }
+}
