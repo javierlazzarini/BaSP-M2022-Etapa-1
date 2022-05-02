@@ -38,7 +38,9 @@ window.onload = function () {
     inputConfirm.addEventListener("focus", confirmFocus);
     inputCreate.addEventListener("click", createSend);
 
-
+    if (localStorage.length > 0){
+        setInput()
+    }
     function validateName(name) {
         var flag = true;
         var i = 0;
@@ -127,12 +129,12 @@ window.onload = function () {
     function formatDate(date) {
         var arDate = date.split('-');
         return arDate[1] + '/' + arDate[2] + '/' + arDate[0];
-      }
+    }
 
     function validateDob() {
         if (new Date(inputDob.value).getTime() > new Date().getTime()) {
             return false;
-        } else { 
+        } else {
             formatDob = formatDate(inputDob.value);
             return true;
         }
@@ -407,11 +409,25 @@ window.onload = function () {
                     localStorage.setItem("zip", answer.data.zip);
                     localStorage.setItem("email", answer.data.email);
                     localStorage.setItem("password", answer.data.password);
-                    })
+                })
                 .catch(function (grownAnswer) {
                     alert(grownAnswer.errors[0].msg)
 
                 })
         }
+
+    }
+    function setInput() {
+        inputFname.setAttribute("value", localStorage.getItem("name"));
+        inputLname.setAttribute("value", localStorage.getItem("lastName"));
+        inputId.setAttribute("value", localStorage.getItem("dni"));
+        inputDob.setAttribute("value", localStorage.getItem("dob"));
+        inputPhone.setAttribute("value", localStorage.getItem("phone"));
+        inputAdress.setAttribute("value", localStorage.getItem("address"));
+        inputCity.setAttribute("value", localStorage.getItem("city"));
+        inputPost.setAttribute("value", localStorage.getItem("zip"));
+        inputEmail.setAttribute("value", localStorage.getItem("email"));
+        inputPass.setAttribute("value", localStorage.getItem("password"));
+        inputConfirm.setAttribute("value", localStorage.getItem("password"));
     }
 }
