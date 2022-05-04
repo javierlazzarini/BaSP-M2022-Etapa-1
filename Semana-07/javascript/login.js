@@ -33,12 +33,10 @@ window.onload = function () {
             email.style.border = '3px solid green';
         }
     }
-
     function emailFocus() {
         msgContainer[0].classList.add('hide');
         email.style.border = '3px solid grey';
     }
-
 
     function validatePassword() {
         var passwordFormat = /^[A-Za-z0-9_-]*$/;
