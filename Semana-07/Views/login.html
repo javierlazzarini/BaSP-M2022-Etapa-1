@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../CSS/reset.css">
-        <link rel="stylesheet" href="../CSS/header.css">
-        <link rel="stylesheet" href="../CSS/footer.css">
-        <link rel="stylesheet" href="../CSS/sidebar.css">
-        <link rel="stylesheet" href="../CSS/login.css">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/a45c2b6d49.js" crossorigin="anonymous"></script>
-        <title>Login</title>
-    </head>
-
-    <body>
-        <header>
-            <div>
-                <a href="./index.html"><i class="fa-solid fa-house"></i></a>
-            </div>
-            <div class="header-container">
-                <h1>Trackgenix</h1>
-                <h2>We’re Trackgenix SA</h2>
-            </div>
-        </header>
-        <main>
-            <form>
-                <h2>Log In</h2>
+        <head>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="../CSS/reset.css">
+            <link rel="stylesheet" href="../CSS/header.css">
+            <link rel="stylesheet" href="../CSS/footer.css">
+            <link rel="stylesheet" href="../CSS/sidebar.css">
+            <link rel="stylesheet" href="../CSS/login.css">
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script src="https://kit.fontawesome.com/a45c2b6d49.js" crossorigin="anonymous"></script>
+            <title>Login</title>
+        </head>
+        <body>
+            <header>
                 <div>
-                    <label for="email"><i class="fa-regular fa-envelope"></i> Email:</label>
-                    <input id="email" name="email">
-                    <div class="msg-container"></div>
+                    <a href="./index.html"><i class="fa-solid fa-house"></i></a>
                 </div>
-                <div>
-                    <label for="password"><i class="fa-solid fa-lock"></i> Password:</label>
-                    <input id="pass" type="password" name="password">
-                    <div class="msg-container"></div>
+                <div class="header-container">
+                    <h1>Trackgenix</h1>
+                    <h2>We’re Trackgenix SA</h2>
                 </div>
-                <div id="b-signin">
-                    <input type="button" value="Continue">
+            </header>
+            <main>
+                <form>
+                    <h2>Log In</h2>
+                    <div>
+                        <label for="email"><i class="fa-regular fa-envelope"></i> Email:</label>
+                        <input id="email" name="email">
+                        <div class="msg-container"></div>
+                    </div>
+                    <div>
+                        <label for="password"><i class="fa-solid fa-lock"></i> Password:</label>
+                        <input id="pass" type="password" name="password">
+                        <div class="msg-container"></div>
+                    </div>
+                    <div id="b-signin">
+                        <input type="button" value="Continue">
+                    </div>
+                </form>
+                <div id="goToSignUp">
+                    <p>If you don't have a registered account you can create one</p>
+                    <a href="./sign-up.html">Create account</a>
                 </div>
-            </form>
-            <div id="goToSignUp">
-                <p>If you don't have a registered account you can create one</p>
-                <a href="./sign-up.html">Create account</a>
+            </main>
+            <footer>
+                <p>
+                    Rosario, Santa Fe - Argentina
+                </p>
+                <p>
+                    Copyright © 2022 Trackgenix SA. All rights reserved.
+                </p>
+            </footer>
             </div>
-        </main>
-        <footer>
-            <p>
-                Rosario, Santa Fe - Argentina
-            </p>
-            <p>
-                Copyright © 2022 Trackgenix SA. All rights reserved.
-            </p>
-        </footer>
-        <script src="../javascript/login.js"></script>
-    </body>
-
+            <script src="../javascript/login.js"></script>
+        </body>
 </html>

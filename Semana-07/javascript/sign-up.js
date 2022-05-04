@@ -76,7 +76,7 @@ window.onload = function () {
     }
 
     function lNameBlur() {
-        if (!validateName(inputFname.value)) {
+        if (!validateName(inputLname.value)) {
             msgContainer[1].classList.remove('hide');
             msgContainer[1].classList.add('error');
             msgContainer[1].innerHTML = "Name incorrect";
